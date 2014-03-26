@@ -4,11 +4,11 @@ THEME_NAME:=commotion
 THEME_TITLE:=Commotion
 
 PKG_NAME:=luci-theme-$(THEME_NAME)
-PKG_VERSION:=master
+PKG_VERSION:=header-ipv6-support
 PKG_RELEASE:=1
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=git://github.com/opentechinstitute/luci-theme-commotion.git
+PKG_SOURCE_URL:=git://github.com/reseaulibre-polymtl/luci-theme-commotion.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=$(PKG_VERSION)
 
